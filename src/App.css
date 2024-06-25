@@ -1,0 +1,82 @@
+.container {
+    padding: 3rem;
+    margin: 5rem auto;
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+  }
+  
+  .tabs {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 3rem;
+  }
+  
+  .tab-item {
+    list-style: none;
+  }
+  
+  .tab-link {
+    padding: 0.5rem 1rem;
+    cursor: pointer;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    text-align: center;
+  }
+  
+  .tab-link.active {
+    background-color: #1266f1;
+    color: white;
+  }
+  
+  .tab-content {
+    margin-top: 1rem;
+  }
+  
+  .text-center {
+    text-align: center;
+  }
+  
+  .mb-3 {
+    margin-bottom: 1rem;
+  }
+  
+  .mb-4 {
+    margin-bottom: 1.5rem;
+  }
+  
+  .w-100 {
+    width: 100%;
+  }
+  
+  .input-field {
+    width: 100%;
+    padding: 0.5rem;
+    margin-bottom: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .btn {
+    width: 100%;
+    padding: 0.5rem;
+    background-color: #1266f1;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .checkbox {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .social-btns {
+    display: flex;
+    justify-content: space-between;
+    width: 40%;
+    margin: 0 auto;
+  }
+  
